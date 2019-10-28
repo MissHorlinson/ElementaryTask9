@@ -11,7 +11,7 @@ public class PowController {
 
     public void run() {
         Pow model = new Pow(getNumber("number"), getNumber("pow"));
-        output.result(service.getPow(model.getNumber(), model.getPow()), model.getNumber(), model.getPow());
+        output.result(service.getPow(model.getNumber(), model.getPow()), model);//model.getNumber(), model.getPow());
     }
 
     public int getNumber(String value) {
