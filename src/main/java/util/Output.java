@@ -11,9 +11,10 @@ public class Output {
     }
 
     public void result(ArrayList<Integer> powList, Pow model) {
-        System.out.println("pow(" + model.getNumber() + ", " + model.getPow() + ")");
-        int pow = model.getNumber();
-        int number = pow;
+        int number = model.getNumber();
+        int pow = model.getPow();
+        System.out.println("pow(" + number + ", " + pow + ")");
+        pow = number;
         int i = 1;
         for (Integer value : powList) {
             System.out.println(i++ + ". " + number + " * " + pow + " = " + value);
