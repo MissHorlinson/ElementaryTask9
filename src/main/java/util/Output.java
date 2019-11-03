@@ -4,10 +4,11 @@ import model.Pow;
 import java.util.ArrayList;
 
 public class Output {
+
     public void startInfo(String value) { System.out.println("Enter the " + value); }
 
-    public void negativeNumber() {
-        System.out.println("It should be positive number > 0");
+    public void notValid() {
+        System.out.println("Not valid data");
     }
 
     public void result(ArrayList<Integer> powList, Pow model) {

@@ -1,8 +1,11 @@
 package model;
 
 public class Pow {
+
     private int number;
     private int pow;
+
+    public Pow() { }
 
     public Pow(int number, int pow) {
         this.number = number;
