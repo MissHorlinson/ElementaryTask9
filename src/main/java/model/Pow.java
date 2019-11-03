@@ -27,4 +27,9 @@ public class Pow {
     public void setPow(int pow) {
         this.pow = pow;
     }
+
+    @Override
+    public String toString() {
+        return "pow(" + getNumber() + ", " + getPow() + ")";
+    }
 }
